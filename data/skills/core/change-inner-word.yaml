@@ -1,0 +1,10 @@
+schema_version: 1
+kind: skill
+id: change-inner-word
+name: Change Inner Word
+category: editing
+track: core
+description: Replace the current word contents with ciw.
+depends_on: []
+chapter: chapter-01
+order: 30

@@ -1,0 +1,10 @@
+schema_version: 1
+kind: skill
+id: move-left
+name: Move Left with h
+category: movement
+track: core
+description: Move one character left in Normal mode with h.
+depends_on: []
+chapter: chapter-01
+order: 10

@@ -1,0 +1,29 @@
+schema_version: 1
+kind: level
+id: lesson-h-left
+title: Step Left with h
+mode: lesson
+judge: cursor
+description: Move the cursor one character left with h.
+chapter: chapter-01
+difficulty: 1
+skills_focus:
+  - move-left
+skills_used:
+  - move-left
+initial_buffer:
+  - alpha
+initial_cursor:
+  line: 1
+  column: 3
+goal:
+  target_cursor:
+    line: 1
+    column: 2
+step_limit: 1
+completion: You moved left with h.
+insight: Small motions are the alphabet of larger edits.
+rewards:
+  grant_skills:
+    - move-left
+  unlock_levels: []

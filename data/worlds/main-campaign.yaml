@@ -1,0 +1,54 @@
+schema_version: 1
+kind: world
+id: main-campaign
+title: Main Campaign
+description: Introductory Vim fluency path.
+starting_node: chapter-01-hub
+chapters:
+  - id: chapter-01
+    title: Foundations
+    order: 1
+    description: Movement and first edits.
+nodes:
+  - id: chapter-01-hub
+    chapter: chapter-01
+    type: hub
+    label: Foundations
+    position:
+      x: 10
+      y: 15
+    unlock:
+      requires_all:
+        levels_completed: []
+        skills_mastered: []
+  - id: lesson-h-left-node
+    chapter: chapter-01
+    type: level
+    label: "h: move left"
+    level_id: lesson-h-left
+    position:
+      x: 28
+      y: 18
+    unlock:
+      requires_all:
+        levels_completed: []
+        skills_mastered: []
+  - id: lesson-ciw-replace-word-node
+    chapter: chapter-01
+    type: level
+    label: "ciw: replace a word"
+    level_id: lesson-ciw-replace-word
+    position:
+      x: 56
+      y: 24
+    unlock:
+      requires_all:
+        levels_completed:
+          - lesson-h-left
+        skills_mastered:
+          - move-left
+edges:
+  - from: chapter-01-hub
+    to: lesson-h-left-node
+  - from: lesson-h-left-node
+    to: lesson-ciw-replace-word-node

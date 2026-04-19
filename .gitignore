@@ -1,0 +1,31 @@
+# Operating system noise
+.DS_Store
+
+# Editor-local files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local build and coverage output
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local scratch work
+todo/
+.local/

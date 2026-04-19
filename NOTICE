@@ -1,0 +1,24 @@
+vimdungeon uses a split, non-commercial, source-available licensing model.
+
+Repository: https://github.com/Neurocoda/vimdungeon
+
+1. Software code and software-related files are governed by `LICENSE`, which contains the PolyForm Noncommercial License 1.0.0.
+
+2. Non-code game content and educational content are governed by `LICENSE-CONTENT`.
+
+General scope guidance:
+
+- Files in `src/`, `lua/`, `scripts/`, and most software-development-related configuration files are generally treated as software and fall under `LICENSE`.
+- Files in `data/levels/`, `data/worlds/`, and `data/skills/` are generally treated as protected game or educational content and fall under `LICENSE-CONTENT`.
+- Files in `docs/` are governed by file purpose. Gameplay, curriculum, lesson, puzzle, progression, and game-design documents generally fall under `LICENSE-CONTENT`. Software-development notes, code-oriented examples, and purely implementation-facing material generally fall under `LICENSE` unless otherwise noted.
+- Files in `tests/` are generally treated as software under `LICENSE`, unless a fixture or example is clearly content-like by purpose.
+- Exact scope is determined by the purpose and substance of a file, not only by its directory name.
+
+Commercial use is not granted by default under either repository license. If you want to use the software or the repository content commercially, contact the author for separate permission.
+
+Commercial licensing inquiries: public@neurocoda.com
+
+Third-party dependencies remain separate:
+
+- `vimdungeon` may use or integrate with Neovim, but Neovim is a separate third-party dependency governed by its own license.
+- Nothing in this repository relicenses Neovim or any other third-party dependency.

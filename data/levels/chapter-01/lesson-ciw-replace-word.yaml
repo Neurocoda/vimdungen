@@ -1,0 +1,28 @@
+schema_version: 1
+kind: level
+id: lesson-ciw-replace-word
+title: Replace a Word with ciw
+mode: lesson
+judge: text
+description: Replace the current word with new using ciw.
+chapter: chapter-01
+difficulty: 2
+skills_focus:
+  - change-inner-word
+skills_used:
+  - change-inner-word
+initial_buffer:
+  - name = old
+initial_cursor:
+  line: 1
+  column: 8
+goal:
+  target_buffer:
+    - name = new
+step_limit: 7
+completion: You replaced a word with ciw.
+insight: Operators and text objects become powerful when treated as a phrase.
+rewards:
+  grant_skills:
+    - change-inner-word
+  unlock_levels: []

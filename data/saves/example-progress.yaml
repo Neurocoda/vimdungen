@@ -1,0 +1,17 @@
+schema_version: 1
+kind: progress
+profile_id: default
+world_id: main-campaign
+current_node: lesson-ciw-replace-word-node
+completed_levels:
+  - lesson-h-left
+unlocked_levels:
+  - lesson-h-left
+  - lesson-ciw-replace-word
+mastered_skills:
+  - move-left
+best_steps:
+  lesson-h-left: 1
+challenge_scores: {}
+last_played_level: lesson-h-left
+updated_at: 2026-04-19T00:00:00Z
